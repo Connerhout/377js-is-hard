@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    min-height: 100%;
+    max-width: 800px;
+}
+
+.search-bar {
+    align-items: center;
+}
+
+.search-results {
+    align-items: center;
+}
+
+
+h1 {
+    text-align: center;
+}
