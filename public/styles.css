@@ -1,21 +1,32 @@
 body {
-    background-color: grey;
+    background: grey;
 }
 
 .header {
+    color: black;  
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    border-radius: 8px;
   }
 
 .wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-
+@media only screen and (max-width: 1000px) {
 .container {
     min-height: 100%;
     max-width: 800px;
+    margin: 0 auto;
+    text-align:center;
+    justify-content: center;
+}
 }
 
 .search-bar {
@@ -26,7 +37,7 @@ body {
     align-items: center;
 }
 
-
 h1 {
+    font-size: 25px;
     text-align: center;
 }
